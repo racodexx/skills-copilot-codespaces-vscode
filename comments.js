@@ -1,4 +1,4 @@
-//create a comment
+// Create web server
 router.post("/", async (req, res) => {
   const newComment = new Comment(req.body);
   try {
